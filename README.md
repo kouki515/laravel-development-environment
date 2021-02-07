@@ -4,6 +4,12 @@
 <br>
 
 # Commands
+**Docker up**
+```
+$ docker-compose up -d --build
+```
+<br>
+
 **Enter inside app container**
 ```
 $ docker-compose exec app bash
