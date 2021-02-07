@@ -1,1 +1,3 @@
 # Laravelポートフォリオ
+
+laravel 6.*
