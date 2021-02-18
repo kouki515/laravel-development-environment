@@ -1,5 +1,5 @@
 # Laravel Template
-**version 6.x**
+**version 6.20.16**
 
 <br>
 
