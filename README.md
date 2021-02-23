@@ -30,6 +30,13 @@ $ docker-compose exec app bash
 $ cp .env.example backend/.env
 ```
 
+<br>	
+
+**Create application key**	
+```	
+$ php artisan key:generate	
+```
+
 <br>
 
 **Edit the config file**
