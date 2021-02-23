@@ -24,17 +24,17 @@ $ docker-compose exec app bash
 
 <br>
 
+**copy the .env file**
+
+```
+$ cp .env.example backend/.env
+```
+
+<br>
+
 **Edit the config file**
 
 ```
 'timezone' => 'Asia/Tokyo',
 'locale' => 'ja',
-```
-
-<br>
-
-**copy the .env file**
-
-```
-$ cp .env.example backend/.env
 ```
