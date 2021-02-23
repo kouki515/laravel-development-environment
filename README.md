@@ -21,3 +21,20 @@ $ docker-compose exec app bash
 ```
 [app] $ composer create-project --prefer-dist "laravel/laravel=6.*" .
 ```
+
+<br>
+
+**Edit the config file**
+
+```
+'timezone' => 'Asia/Tokyo',
+'locale' => 'ja',
+```
+
+<br>
+
+**copy the .env file**
+
+```
+$ cp .env.example backend/.env
+```
