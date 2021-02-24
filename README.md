@@ -31,11 +31,12 @@ $ docker-compose exec app bash
 $ cp .env.example backend/.env
 ```
 
-<br>	
+<br>
 
-**Create application key**	
-```	
-$ php artisan key:generate	
+**Create application key**
+
+```
+$ php artisan key:generate
 ```
 
 <br>
@@ -45,4 +46,13 @@ $ php artisan key:generate
 ```
 'timezone' => 'Asia/Tokyo',
 'locale' => 'ja',
+```
+
+<br>
+
+**npm install and run dev**
+
+```
+$ npm install
+$ npm run dev
 ```
