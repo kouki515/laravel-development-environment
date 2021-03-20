@@ -16,11 +16,10 @@ $ docker-compose exec app bash
 
 <br>
 
-**Install the laravel or Composer install**
+**Install the laravel**
 
 ```
 [app] $ composer create-project --prefer-dist "laravel/laravel=6.*" .
-[app] $ composer install
 ```
 
 <br>
@@ -49,10 +48,3 @@ $ php artisan key:generate
 ```
 
 <br>
-
-**npm install and run dev**
-
-```
-$ npm install
-$ npm run dev
-```
