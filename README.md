@@ -32,6 +32,22 @@ $ cp .env.example backend/.env
 
 <br>
 
+**Composer install**
+
+```
+$ composer install
+```
+
+<br>
+
+**Npm install and run**
+
+```
+$ npm install && npm run dev
+```
+
+<br>
+
 **Create application key**
 
 ```
